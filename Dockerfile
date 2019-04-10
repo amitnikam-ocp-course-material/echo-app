@@ -1,2 +1,2 @@
-"FROM java:8-jre
-CMD bash -c ""while true; do (( i++ )); echo test \$i; sleep 5; done"""
+FROM java:8-jre
+CMD bash -c "while true; do (( i++ )); echo test \$i; sleep 5; done"
